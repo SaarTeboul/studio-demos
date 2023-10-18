@@ -39,8 +39,8 @@ if __name__ == '__main__':
     st.title("Website Generator")
     st.markdown("###### Create valuable marketing copy for your business page that describes your business and its benefits within seconds! Simply give a few details about your business, and let our tool work its magic.")
 
-    business_name = st.text_input("Enter your business' name:", value="Home Painters")
-    location = st.text_input("Enter your business' location:", value="Memphis, Tennessee")
+    business_name = st.text_input("Enter your business' name:", value="Saar's Pre Sales Engineer inc.")
+    location = st.text_input("Enter your business' location:", value="Tel Mond, Israel")
     services = st.text_area("List your business services here:", value="- Interior & Exterior Painting\n- Staining\n- Removal, Cleanup, Retexture, Repainting")
     highlights = st.text_area("Do you want to highlight some benefits of your business?", value="- Over 15 years of experience\n- 5 years guarantee")
 
@@ -65,3 +65,4 @@ if __name__ == '__main__':
             st.text("")
         st.text_area("Generated Website Description", st.session_state["short-form-result"]["completion"], height=200)
 
+# To run: streamlit run My_Sales_Demo/3_Website_Generator.py
