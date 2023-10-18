@@ -185,6 +185,7 @@ Our services are offered at affordable rates and one-on-one attention is given t
 
 Write an engaging business description for the following company. 
 
+
 '''
 
 WEBSITE_HEADLINE_FEW_SHOT = '''Write an engaging headline for the following company.

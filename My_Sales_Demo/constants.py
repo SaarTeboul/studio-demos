@@ -104,86 +104,316 @@ Description: Take a bit of camp charm with you wherever you go with this black c
 
 Write product descriptions for fashion eCommerce site based on a list of features.'''
 
-WEBSITE_DESCRIPTION_FEW_SHOT = '''Write an engaging business description for the following company.
+WEBSITE_FAQ_FEW_SHOT = '''Write frequently asked questions (FAQ) for the following company.
 
-Name of Business: Juliana Laface Design
-Location: Edmonton, AB, Canada
+Name of Business: Green Thumb Landscaping
+Location: Portland, OR
 Services:
-- Web design
-- Branding & logos
-- Digital marketing
-- Graphic design
+- Landscape Design
+- Lawn Maintenance
+- Tree Pruning
+- Irrigation Systems
 
 Important Company Highlights:
-- A small business owner
-- 10 years of experience
-- Small to mid sized businesses web design
+- Eco-friendly practices
+- Certified Arborists
+- 100% Customer Satisfaction Guarantee
 
-Description:
-Every entrepreneur has a goal in mind when marketing their small business. Whether you want to increase your number of monthly website visitors, improve online sales, or book more consultations— you want to see a return on your investment.
-As an Edmonton website designer, graphic designer and brand creator who also happens to be a small business owner, I have carefully considered each of my services, honing in on the offerings that provide my clients with the greatest gains.
-Ultimately, I want to provide you with an unforgettable design, because that’s what I would want for my own business.
+FAQ:
+Q1: Do you use eco-friendly products and methods in your landscaping services?
+A1: Absolutely! We take pride in our commitment to eco-friendly practices, ensuring that our landscapes are both beautiful and environmentally sustainable.
+
+Q2: Are your arborists certified?
+A2: Yes, we have certified arborists on our team, guaranteeing expert care for your trees during pruning and other services.
+
+Q3: What if I'm not satisfied with the landscaping job?
+A3: We offer a 100% Customer Satisfaction Guarantee. If you're not happy, we'll make it right.
 
 ##
 
-Write an engaging business description for the following company. 
+Write frequently asked questions (FAQ) for the following company.
 
-Name of Business: Concept Marketing Group
-Location: New York
+Name of Business: Tech Genie IT Solutions
+Location: Austin, TX
 Services:
-- Targeted licensing
-- Direct-to-retail
+- IT Consulting
+- Network Security
+- Cloud Services
+- Data Backup & Recovery
 
 Important Company Highlights:
-- Recognized leader
+- 24/7 IT Support
+- Certified Technicians
+- Customized Solutions for Businesses
 
-Description:
-Concept Marketing Group is a full-service licensing agency and recognized leader in targeted licensing, direct-to-retail, and other brand extension initiatives. Our experienced team provides valuable insight and guidance to licensee and licensor.
-National and international icons of fashion, interior design and home furnishings, as well as charitable organizations have entrusted us with their brands.
+FAQ:
+Q1: Do you provide IT support round the clock?
+A1: Yes, we offer 24/7 IT support to ensure your business operations run smoothly at all times.
+
+Q2: Are your technicians certified?
+A2: Absolutely! Our technicians are certified, ensuring top-notch services and solutions for your IT needs.
+
+Q3: Can you provide a solution tailored for my specific business needs?
+A3: Definitely. We specialize in crafting customized IT solutions that cater specifically to your business requirements.
 
 ##
 
-Write an engaging business description for the following company. 
+Write frequently asked questions (FAQ) for the following company.
 
-Name of Business: The Frosting Room 
-Location: Australia, Sydney
+Name of Business: Fresh Bites Catering
+Location: Chicago, IL
 Services:
-- Coffee
-- Lunch
-- Bagels
-- Granola
+- Corporate Catering
+- Event Planning
+- Custom Menu Design
+- Dietary Options
 
 Company Highlights:
-- One-stop shop
-- Grab 'n' go
+- Farm-to-table Ingredients
+- Experienced Event Coordinators
+- On-time Delivery
 
-Description:
-Founded upon a passion for food and baking, The Bakery has become a one-stop shop for all kinds of delectable, gorgeous baked goods and then some. We have the perfect cup of coffee, freshly-made lunches and a plethora of tasty take away options, including granola, bagels, specialty breads and pizza.
-If you’re in a hurry, a full palette of grab ‘n’ go desserts (think a giant chocolate cloud of mousse or a strawberry tarte) are available for your spontaneous dinner soiree.
-From day one until today, this is what The Bakery does with a whole lot of love.
+FAQ:
+Q1: Do you use organic ingredients in your dishes?
+A1: Yes, we prioritize farm-to-table ingredients, ensuring that our meals are fresh, organic, and of the highest quality.
+
+Q2: Can you accommodate specific dietary restrictions?
+A2: Absolutely! We offer various dietary options and can create a custom menu tailored to your needs.
+
+Q3: What if my catering order is late?
+A3: We pride ourselves on timely delivery. In the rare case of a delay, our team will communicate and ensure a swift resolution
 
 ##
 
-Write an engaging business description for the following company. 
+Write frequently asked questions (FAQ) for the following company.
 
-Name of Business: The Michael Project 
-Location: New York, NY 
+Name of Business: Artistic Ink Tattoo Studio 
+Location: Seattle, WA
 Services:
-- Mentorship
-- Employment
+- Custom Tattoos
+- Cover-ups
+- Body Piercing
+- Tattoo Removal
 
 Important Company Highlights:
-- Provides a wide range of affordable services
-- Specializing in helping struggling youth 
+- Award-winning Artists
+- Strict Sanitary Standards
+- Free Consultations
 
-Description:
-What began as a small charity helping homeless youth on the streets of New York City, has evolved into one of the largest job training and placement agencies in the Big Apple.
-Our services include career guidance, job search assistance, resume writing, interview preparation and employment placement, as well as programs for at-risk youth, ex-offenders, those with disabilities and transitioning military.
-Our services are offered at affordable rates and one-on-one attention is given to every client during the training process.
+FAQ:
+Q1: Do you offer consultations before getting a tattoo?
+A1: Yes, we provide free consultations to discuss design, placement, and any other queries you might have.
+
+Q2: Are your tattoo artists certified or have won any awards?
+A2: Absolutely! We boast award-winning artists who are passionate about crafting unique and intricate designs for our clients.
+
+Q3: How do you ensure the hygiene of your studio?
+A3: We maintain strict sanitary standards, ensuring all our equipment is sterilized and our studio is immaculately clean to guarantee the safety of our clients.
 
 ##
 
-Write an engaging business description for the following company. 
+Write frequently asked questions (FAQ) for the following company.
+
+##
+
+'''
+
+WEBSITE_TESTIMONIAL_FEW_SHOT = '''Write an engaging and promotional testimonials for the following company.
+
+Name of Business: Green Thumb Landscaping
+Location: Portland, OR
+Services:
+- Landscape Design
+- Lawn Maintenance
+- Tree Pruning
+- Irrigation Systems
+
+Important Company Highlights:
+- Eco-friendly practices
+- Certified Arborists
+- 100% Customer Satisfaction Guarantee
+
+Testimonial:
+"I recently collaborated with Green Thumb Landscaping for my backyard redesign in Portland,
+and the experience was outstanding! Their eco-friendly approach aligns perfectly with my values. 
+The team, especially their certified arborists, 
+took great care in tree pruning and setting up an effective irrigation system. Their dedication to 100% customer 
+satisfaction is evident in every blade of grass. Highly recommend for anyone in need of landscaping services!"
+
+##
+
+Write an engaging and promotional testimonials for the following company.
+
+Name of Business: Tech Genie IT Solutions
+Location: Austin, TX
+Services:
+- IT Consulting
+- Network Security
+- Cloud Services
+- Data Backup & Recovery
+
+Important Company Highlights:
+- 24/7 IT Support
+- Certified Technicians
+- Customized Solutions for Businesses
+
+Testimonial:
+"Our company has been partnered with Tech Genie IT Solutions for over a year, and they've been an IT lifesaver!
+ The 24/7 support is a game-changer, especially during our late-night work sessions.
+ With certified technicians who craft customized solutions, our network security has never been tighter.
+ Data backup & recovery was seamless when we had an unexpected system failure.
+ Tech Genie is truly the guardian of our IT infrastructure in Austin."
+
+##
+
+Write an engaging and promotional testimonials for the following company.
+
+Name of Business: Fresh Bites Catering
+Location: Chicago, IL
+Services:
+- Corporate Catering
+- Event Planning
+- Custom Menu Design
+- Dietary Options
+
+Company Highlights:
+- Farm-to-table Ingredients
+- Experienced Event Coordinators
+- On-time Delivery
+
+Testimonial:
+"Fresh Bites Catering was the highlight of our corporate event in Chicago! The attention to detail in the custom menu,
+ tailored to accommodate diverse dietary needs, was truly commendable.
+ Their commitment to farm-to-table ingredients is reflected in every delicious bite.
+ Plus, their event coordinators ensured everything went smoothly.
+ On-time delivery with hot and fresh meals? They nailed it!"
+
+##
+
+Write an engaging and promotional testimonials for the following company.
+
+Name of Business: Artistic Ink Tattoo Studio 
+Location: Seattle, WA
+Services:
+- Custom Tattoos
+- Cover-ups
+- Body Piercing
+- Tattoo Removal
+
+Important Company Highlights:
+- Award-winning Artists
+- Strict Sanitary Standards
+- Free Consultations
+
+Testimonial:
+"Artistic Ink Tattoo Studio in Seattle is where art meets soul.
+Their award-winning artists transformed my vague idea into a masterpiece on my skin.
+Their commitment to sanitation put my mind at ease, especially during my piercing session.
+I appreciated the free consultation where we discussed design, placement,
+and care. Whether it's a custom tattoo or a cover-up, Artistic Ink is the place to go!"
+
+##
+
+Write an engaging and promotional testimonials for the following company.
+
+##
+
+'''
+
+WEBSITE_DESCRIPTION_FEW_SHOT = '''Write an engaging and promotional business description for the following company. Make sure that the Name of Business appears in the description.
+
+Name of Business: Green Thumb Landscaping
+Location: Portland, OR
+Services:
+- Landscape Design
+- Lawn Maintenance
+- Tree Pruning
+- Irrigation Systems
+
+Important Company Highlights:
+- Eco-friendly practices
+- Certified Arborists
+- 100% Customer Satisfaction Guarantee
+
+Description:
+Enhance Your Outdoor Space with Professional Landscaping Services. From creative designs to sustainable maintenance,
+Green Thumb Landscaping has you covered. 
+Our certified arborists and irrigation experts ensure your landscape stays lush and beautiful year-round.
+Experience the difference in Portland, OR!
+
+##
+
+Write an engaging and promotional business description for the following company. Make sure that the Name of Business appears in the description.
+
+Name of Business: Tech Genie IT Solutions
+Location: Austin, TX
+
+Services:
+- IT Consulting
+- Network Security
+- Cloud Services
+- Data Backup & Recovery
+
+Important Company Highlights:
+- 24/7 IT Support
+- Certified Technicians
+- Customized Solutions for Businesses
+
+Description:
+Simplify Your IT with Tech Genie. Our team of certified technicians provides reliable IT solutions for businesses in Austin, TX.
+From comprehensive network security to cloud services, we've got your back 24/7. Focus on your core business while we handle your tech needs.
+
+##
+
+Write an engaging and promotional business description for the following company. Make sure that the Name of Business appears in the description.
+
+Name of Business: Fresh Bites Catering
+Location: Chicago, IL
+
+Services:
+- Corporate Catering
+- Event Planning
+- Custom Menu Design
+- Dietary Options
+
+Company Highlights:
+- Farm-to-table Ingredients
+- Experienced Event Coordinators
+- On-time Delivery
+
+Description:
+Elevate Your Events with Fresh Bites Catering. We bring a fresh twist to catering in Chicago, IL. 
+Our farm-to-table ingredients and custom menu design ensure an unforgettable dining experience.
+Our experienced event coordinators take care of all the details, so you can savor every moment.
+
+##
+
+Write an engaging and promotional business description for the following company. Make sure that the Name of Business appears in the description.
+
+Name of Business: Artistic Ink Tattoo Studio 
+Location: Seattle, WA
+
+Services:
+- Custom Tattoos
+- Cover-ups
+- Body Piercing
+- Tattoo Removal
+
+Important Company Highlights:
+- Award-winning Artists
+- Strict Sanitary Standards
+- Free Consultations
+
+Description:
+Express Yourself with Artistic Ink Tattoos. Our award-winning artists in Seattle, WA, create unique and meaningful 
+tattoos that tell your story. Safety is our top priority, with strict sanitary standards. 
+Book a free consultation to discuss your tattoo ideas today!
+
+##
+
+Write an engaging and promotional business description for the following company. Make sure that the Name of Business appears in the description.
+
+##
 
 '''
 
