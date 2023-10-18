@@ -81,4 +81,5 @@ if __name__ == '__main__':
                          st.session_state['email']['completion'].split('Email:\n')[1], height=300)
 
 
-# To run: streamlit run My_Sales_Demo/3_Website_Generator.py
+# To run: source venv/bin/activate
+# streamlit run My_Sales_Demo/3_Website_Generator.py
