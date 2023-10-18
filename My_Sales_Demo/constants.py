@@ -104,6 +104,144 @@ Description: Take a bit of camp charm with you wherever you go with this black c
 
 Write product descriptions for fashion eCommerce site based on a list of features.'''
 
+WEBSITE_Email_Template_FEW_SHOT = '''Write an email marketing template for the following company.
+
+Name of Business: Green Thumb Landscaping
+Location: Portland, OR
+Services:
+- Landscape Design
+- Lawn Maintenance
+- Tree Pruning
+- Irrigation Systems
+
+Important Company Highlights:
+- Eco-friendly practices
+- Certified Arborists
+- 100% Customer Satisfaction Guarantee
+
+Email:
+Subject: Unlock a Greener Tomorrow with Our Exclusive Landscaping Services!
+
+Dear [Customer's First Name],
+Welcome to Green Thumb Landscaping - where your garden dreams come to life!
+Discover the beauty of top-tier Landscape Design as your space transforms before your eyes. Benefit from our meticulous 
+Lawn Maintenance services and maintain a pristine lawn year-round. Trust in our Certified Arborists to give your trees 
+the expert care they deserve with our Tree Pruning service. And with our efficient Irrigation Systems, your garden will always stay vibrant and lush.
+More than that, our commitment to eco-friendly practices ensures a green and sustainable outcome for your outdoor spaces.
+And with our 100% Customer Satisfaction Guarantee, we ensure your complete satisfaction.
+
+Book now and embrace nature like never before!
+
+Warm regards,
+Green Thumb Landscaping Team, Portland, OR
+
+##
+
+Write an email marketing template for the following company.
+
+Name of Business: Tech Genie IT Solutions
+Location: Austin, TX
+Services:
+- IT Consulting
+- Network Security
+- Cloud Services
+- Data Backup & Recovery
+
+Important Company Highlights:
+- 24/7 IT Support
+- Certified Technicians
+- Customized Solutions for Businesses
+
+Email:
+Subject: Elevate Your IT Experience with Tech Genie Solutions!
+
+Hello [Customer's First Name],
+Step into the future with Tech Genie IT Solutions!
+Fortify your business framework with our cutting-edge Network Security services. Optimize and streamline with our Cloud 
+Services. Never lose important data again with our Data Backup & Recovery solutions. And if you're unsure about the best
+ IT strategies for your business, our Consulting services are here to guide you.
+With certified technicians on standby 24/7, we're always here to support and ensure your operations run seamlessly.
+And remember, each solution is customized to fit your unique business needs.
+
+Ready to transform your IT landscape? Get in touch today!
+
+Best wishes,
+Tech Genie Team, Austin, TX
+
+##
+
+Write an email marketing template for the following company.
+
+Name of Business: Fresh Bites Catering
+Location: Chicago, IL
+Services:
+- Corporate Catering
+- Event Planning
+- Custom Menu Design
+- Dietary Options
+
+Company Highlights:
+- Farm-to-table Ingredients
+- Experienced Event Coordinators
+- On-time Delivery
+
+Email:
+Subject: Make Every Occasion Memorable with Fresh Bites Catering!
+
+Dear [Customer's First Name],
+Introducing Fresh Bites Catering - your culinary solution for every occasion!
+Choose our Corporate Catering services to impress at every corporate gathering. 
+Allow our Experienced Event Coordinators to take the reins and make your events a resounding success. 
+Personalize your guest experience with our Custom Menu Design. And with our wide range of Dietary Options,
+everyone's palate will be catered to.
+Our promise? Only the freshest, farm-to-table ingredients in every bite, delivered right on time.
+
+Experience the Fresh Bites difference. Book your event today!
+
+Best regards,
+Fresh Bites Team, Chicago, IL
+
+##
+
+Write an email marketing template for the following company.
+
+Name of Business: Artistic Ink Tattoo Studio 
+Location: Seattle, WA
+Services:
+- Custom Tattoos
+- Cover-ups
+- Body Piercing
+- Tattoo Removal
+
+Important Company Highlights:
+- Award-winning Artists
+- Strict Sanitary Standards
+- Free Consultations
+
+Email:
+Subject: Craft Your Story on Skin at Artistic Ink Tattoo Studio!
+
+Hello [Customer's First Name],
+Step into the world of Artistic Ink Tattoo Studio, where art meets passion.
+Let our Award-winning Artists turn your vision into a lasting piece of art. Reimagine your past tattoos with our 
+Cover-ups service. Elevate your style with our precision Body Piercing. And if you ever change your mind, our 
+Tattoo Removal services are here to help.
+Your safety and satisfaction are paramount. Our strict sanitary standards ensure you receive your tattoos in a 
+clean and secure environment. And before you decide, we invite you for a free consultation to discuss your ideas.
+
+Ready to craft your unique story? Visit us today!
+
+Warm regards,
+Artistic Ink Team, Seattle, WA
+
+##
+
+Write an email marketing template for the following company.
+
+##
+
+'''
+
 WEBSITE_FAQ_FEW_SHOT = '''Write frequently asked questions (FAQ) for the following company.
 
 Name of Business: Green Thumb Landscaping

@@ -1,5 +1,6 @@
 import streamlit as st
-from constants import WEBSITE_DESCRIPTION_FEW_SHOT, WEBSITE_TESTIMONIAL_FEW_SHOT, DEFAULT_MODEL, WEBSITE_FAQ_FEW_SHOT
+from constants import WEBSITE_DESCRIPTION_FEW_SHOT, WEBSITE_TESTIMONIAL_FEW_SHOT, DEFAULT_MODEL, WEBSITE_FAQ_FEW_SHOT\
+    ,WEBSITE_Email_Template_FEW_SHOT
 from utils.completion import complete
 from utils.studio_style import apply_studio_style
 
@@ -60,6 +61,9 @@ if __name__ == '__main__':
             faq_prompt = WEBSITE_FAQ_FEW_SHOT + f"Name of Business: {business_name}\nLocation: {location}\nServices:\n{services}\n\nImportant Company Highlights:\n{highlights}\n\n"
             st.session_state["faq"] = {
                 "completion": query(faq_prompt, stopSequences=['##']), }
+            email_prompt = WEBSITE_Email_Template_FEW_SHOT + f"Name of Business: {business_name}\nLocation: {location}\nServices:\n{services}\n\nImportant Company Highlights:\n{highlights}\n\n"
+            st.session_state["email"] = {
+                "completion": query(email_prompt, stopSequences=['##']), }
 
     if "short-form-result" in st.session_state:
         if "headline" in st.session_state:
@@ -71,7 +75,10 @@ if __name__ == '__main__':
             st.text_area("Generated Testimonial", st.session_state['testimonial']['completion'].split('Testimonial:\n')[1], height=200)
         if "faq" in st.session_state:
             st.text_area("Generated FAQ",
-                         st.session_state['faq']['completion'].split('FAQ:\n')[1], height=275)
+                         st.session_state['faq']['completion'].split('FAQ:\n')[1], height=280)
+        if "email" in st.session_state:
+            st.text_area("Generated Marketing Email",
+                         st.session_state['email']['completion'].split('Email:\n')[1], height=300)
 
 
 # To run: streamlit run My_Sales_Demo/3_Website_Generator.py
