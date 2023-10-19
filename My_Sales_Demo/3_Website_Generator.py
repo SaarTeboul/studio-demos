@@ -83,3 +83,5 @@ if __name__ == '__main__':
 
 # To run: source venv/bin/activate
 # streamlit run My_Sales_Demo/3_Website_Generator.py
+
+#(venv) (base) saar.teboul@Saars-MacBook-Pro studio-demos % streamlit run My_Sales_Demo/3_Website_Generator.py
