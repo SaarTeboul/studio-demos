@@ -66,10 +66,7 @@ if __name__ == '__main__':
                 "completion": query(email_prompt, stopSequences=['##']), }
 
     if "short-form-result" in st.session_state:
-        if "headline" in st.session_state:
-            st.text_input("Generated Headline", st.session_state['headline']['completion'])
-        else:
-            st.text("")
+
         st.text_area("Generated Website Description", st.session_state["short-form-result"]["completion"], height=150)
         if "testimonial" in st.session_state:
             st.text_area("Generated Testimonial", st.session_state['testimonial']['completion'].split('Testimonial:\n')[1], height=200)
