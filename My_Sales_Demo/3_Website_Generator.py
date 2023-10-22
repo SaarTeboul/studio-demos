@@ -5,7 +5,7 @@ from utils.completion import complete
 from utils.studio_style import apply_studio_style
 
 st.set_page_config(
-    page_title="Website Generator",
+    page_title="Marketing Content - Moving Along",
 )
 
 
@@ -38,7 +38,7 @@ def query(prompt, stopSequences=["##"]):
 if __name__ == '__main__':
 
     apply_studio_style()
-    st.title("Saar Teboul - AI21 :blue[_Website Generator_] :sunglasses:")
+    st.title("Moving Along - AI21 :blue[_Marketing Content_] :sunglasses:")
     st.markdown("###### :red[_Unlock instant, impactful marketing content for your business page! Just share a snippet about your enterprise, and watch our tool craft a captivating description that highlights your unique benefits_]")
 
     business_name = st.text_input("Enter your business' name:", value="Dance Fusion Studios")
@@ -69,13 +69,25 @@ if __name__ == '__main__':
 
         st.text_area("Generated Website Description", st.session_state["short-form-result"]["completion"], height=150)
         if "testimonial" in st.session_state:
-            st.text_area("Generated Testimonial", st.session_state['testimonial']['completion'].split('Testimonial:\n')[1], height=200)
+            try:
+                st.text_area("Generated Testimonial", st.session_state['testimonial']['completion'].split('Testimonial:\n')[1], height=200)
+            except:
+                st.text_area("Generated Testimonial",
+                             st.session_state['testimonial']['completion'], height=200)
         if "faq" in st.session_state:
-            st.text_area("Generated FAQ",
-                         st.session_state['faq']['completion'].split('FAQ:\n')[1], height=280)
+            try:
+                st.text_area("Generated FAQ",
+                             st.session_state['faq']['completion'].split('FAQ:\n')[1], height=280)
+            except:
+                st.text_area("Generated FAQ",
+                             st.session_state['faq']['completion'], height=280)
         if "email" in st.session_state:
-            st.text_area("Generated Marketing Email",
-                         st.session_state['email']['completion'].split('Email:\n')[1], height=300)
+            try:
+                st.text_area("Generated Marketing Email",
+                             st.session_state['email']['completion'].split('Email:\n')[1], height=300)
+            except:
+                st.text_area("Generated Marketing Email",
+                             st.session_state['email']['completion'], height=300)
 
 
 # To run: source venv/bin/activate
